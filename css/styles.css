@@ -1,0 +1,186 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p, a {
+  color: #8F8F8F;
+  text-decoration: none;
+}
+
+.icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF4C68;
+}
+
+/* Download-Buttons */
+
+.bttn {
+  margin: 5% 3% 5% 0;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/* Title Image */
+
+.title-image {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  left: 60%;
+}
+
+.subtitle {
+  color: #8F8F8F;
+}
+
+#features {
+  background-color: #FFF;
+  padding: 7% 15%;
+  position: relative;
+}
+
+#title {
+  background-color: #FF4C68;
+  color: white;
+}
+
+/* testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #EF8172;
+  color: #FFF;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  height: 500px;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #FF4C68;
+  color: #FFF;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+
+/* Footer Section */
+
+#footer {
+  background-color: #FFF;
+  text-align: center;
+  padding: 7% 1%;
+}
+
+.icn {
+  margin: 20px 10px;
+}
+
+.goto {
+  color: #8F8F8F;
+  line-height: .1;
+  margin: auto 0 auto auto;
+  width: 7rem;
+}
+
+.card-footer {
+  background-color: #FFF;
+  border: none;
+}
+
+/* Media Query */
+@media (max-width: 993px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+}
